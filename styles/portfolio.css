@@ -1,5 +1,3 @@
-/* nav related syles*/
-
 *{
     padding: 0px;
     margin: 0px;
@@ -21,6 +19,7 @@ nav{
     justify-content: space-between;
     padding: 20px 60px;
     align-items: center;
+    margin: 0px 200px;
 }
 .nav-title{
     color: #181818;
@@ -40,4 +39,18 @@ nav a {
     text-decoration: none;
     padding: 30px;
     color: #474747;
+}
+
+/*header related style*/
+.header{
+    background-color: #fff8f3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-picture{
+    width: 500px;
 }
